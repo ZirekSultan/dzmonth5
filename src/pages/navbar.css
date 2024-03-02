@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    gap: 10px;
+}
+.badge{
+    position: relative;
+    left: 120px;
+}
+.badge::after{
+    content: attr(data-count);
+    position: absolute;
+    margin: 10px;
+}
+nav{
+    position: fixed;
+}
